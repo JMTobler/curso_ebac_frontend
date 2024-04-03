@@ -1,6 +1,6 @@
 function calcularArea(base, altura) {
     let resultado = base * altura;
-    return console.log(`A aréa é: ${resultado}`)
+    return resultado
 }
 
-calcularArea(20, 10);
+console.log(`A area é: ${calcularArea(20, 10)}`);
