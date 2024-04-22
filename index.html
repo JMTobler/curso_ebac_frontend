@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Numeros</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+
+    <body>
+        <div class="container">
+                <h1>Formulario Numeros</h1>
+                <h2>B maior que A</h2>
+        
+                <form id="form-numeros">
+                    <input id="numero-a" type="number" required placeholder="insira o numero A" />
+
+                    <input id="numero-b" type="number" required placeholder="insira o numero B" />
+                    <p class="mensagem-erro">O numero B precisa ser Maior que o numero A</p>
+        
+                    <button id="btn-depositar" type="submit">Verificar</button>
+                </form>
+        </div>
+
+        <div class="mensagem">
+            <p class="mensagem-sucesso"> </p>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
