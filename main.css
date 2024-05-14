@@ -1,74 +1,65 @@
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
-body {
-    background-color: #FFF5E0;
+.container,
+.mensagem {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mensagem {
+    width: 600px;
+    display: none;
+}
+
+h1 {
     text-align: center;
+    color: #333;
 }
 
-header {
-    background-color: #141E46;
-    padding: 16px 0;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    font-style: italic;
-}
-
-header button {
-    margin-left: 16px;
+h2 {
+    margin-top: 20px;
+    color: #555;
 }
 
 form {
-    background-color: #ffcf6a;
-    padding: 24px 0;
-    text-align: center;
-    /* display: none; */
-}
-
-form h2 {
-    margin-bottom: 16px;
+    margin-top: 20px;
 }
 
 input,
-button {
-    padding: 8px;
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 button {
-    background-color: #41B06E;
-    border: none;
-    font-weight: bold;
-    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    background-color: #40A578;
     color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
-#btn-cancelar {
-    background-color: #F05941;
+button:hover {
+    background-color: #9DDE8B;
+    color: #333;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 16px;
-}
-
-ul li {
-    font-size: 24px;
-    margin-bottom: 10px;
-    font-weight: Bold;
-}
-
-ul li:hover {
-    cursor: pointer;
-}
-
-.riscado{
-    text-decoration: line-through
+button:focus {
+    outline: none;
 }

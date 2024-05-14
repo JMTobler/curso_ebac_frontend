@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tarefas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Cadastro</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
 
-<body>
-    <header>
-        <h1>Lista de Tarefas</h1>
-        <button type="button">Nova Tarefa</button>
-    </header>
-
-    <form>
-        <h2>Inserir Tarefa</h2>
-
-        <input type="text" required placeholder="Sua Tarefa!" id="tarefa-nova">
-        <button type="submit">Adicionar</button>
-        <button type="reset" id="btn-cancelar">Cancelar</button>
-    </form>
-
-    <ul>
+    <body>
+        <div class="container">
+                <h1>Formulario de cadastro</h1>
         
-    </ul>
+                <form id="form-cadastro">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="./main.js" ></script>
-</body>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
 
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone">
+
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" required>
+
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco" required>
+
+                    <label for="cep">Cep:</label>
+                    <input type="text" name="cep" id="cep" required>
+
+                    <button type="submit">Cadastrar</button>
+                </form>
+        </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./js/jquery.mask.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
 </html>
