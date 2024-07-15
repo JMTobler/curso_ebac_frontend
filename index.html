@@ -3,103 +3,42 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Loja de calçados</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./main.css">
+        <title>Formuldario com Bootstrap</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
-    
+
     <body>
-        <header>
-
-            <div class="container">
-                <h1>Nice shoes</h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Sobre a loja</a>
-                        </li>
-    
-                        <li>
-                            <a href="#">Produtos</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
         <div class="container">
-            <main>
-                <section class="sobre-loja">
-                    <article class="sobre">
-                        <img src="https://via.placeholder.com/320x320">
+            <div class="row">
+                <div class="col">
+                    <h1>Formulário com Bootstrap</h1>
 
-                        <div class="text-content">
-                            <h2>Sobre a Loja</h2>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat provident tempore sequi minus eius voluptatum, facere magnam rem, similique sed quibusdam vero est harum, laboriosam enim eaque quam! Quod, autem!
-                            </p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
                         </div>
-                    </article>
-                </section>
 
-                <section>
-                    <h2>Produtos</h2>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                        </div>
 
-                    <div class="produtos">
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                        </div>
 
-                        <article class="produto">
-                                <img src="https://via.placeholder.com/320x320">
-    
-                                <h2>
-                                    Tenis Nike
-                                </h2>
+                        <div class="mb-3">
+                            <button class="btn btn-success">Enviar</button>
+                        </div>
 
-                                <p>Tenis nilke preto disponivel nos tamanhos: 37, 38, 40</p>
-
-                                <button type="button">Adicionar ao carrinho</button>
-                        </article>
-    
-                        <article class="produto">
-                            <img src="https://via.placeholder.com/320x320">
-
-                            <h2>
-                                Tenis Nike
-                            </h2>
-
-                            <p>Tenis nilke preto disponivel nos tamanhos: 37, 38, 40</p>
-
-                            <button type="button">Adicionar ao carrinho</button>
-                        </article>
-    
-                        <article class="produto">
-                            <img src="https://via.placeholder.com/320x320">
-
-                            <h2>
-                                Tenis Nike
-                            </h2>
-
-                            <p>Tenis nilke preto disponivel nos tamanhos: 37, 38, 40</p>
-
-                            <button type="button">Adicionar ao carrinho</button>
-                        </article>
-    
-                        <article class="produto">
-                            <img src="https://via.placeholder.com/320x320">
-
-                            <h2>
-                                Tenis Nike
-                            </h2>
-
-                            <p>Tenis nilke preto disponivel nos tamanhos: 37, 38, 40</p>
-
-                            <button type="button">Adicionar ao carrinho</button>
-                        </article>
-                    </div>
-                </section>
-            </main>
-
+                    </form>
+                </div>
+            </div>
         </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
