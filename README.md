@@ -1,2 +1,4 @@
-## Repositório para os exercícios do curso de Frontend da EBAC
-esse repositório foi criado para armazenar os exercícios feitos durante a parte de frontend do curso da EBAC de fullstack Java, os exercícios estarão divididos em branchs
+## exercicio grunp
+O exercicio consiste em criar um arquivo Grunpfile que deverá executar as tarefas:
+  -compilação do less;
+  -compressão de código JavaScript;
