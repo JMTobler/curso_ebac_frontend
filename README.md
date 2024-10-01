@@ -1,2 +1,2 @@
-## Repositório para os exercícios do curso de Frontend da EBAC
-esse repositório foi criado para armazenar os exercícios feitos durante a parte de frontend do curso da EBAC de fullstack Java, os exercícios estarão divididos em branchs
+## Exercicio de Programação Orientada a Objetos
+esse exercicio consiste em Criar uma classe abstrata, criar 2 classes herdeiras da classe abstrata e criar 3 objetos dessas classes
