@@ -1,2 +1,2 @@
-## Repositório para os exercícios do curso de Frontend da EBAC
-esse repositório foi criado para armazenar os exercícios feitos durante a parte de frontend do curso da EBAC de fullstack Java, os exercícios estarão divididos em branchs
+## Exercicio sobre ES6+
+esse exercicio consiste em criar um array de objetos, onde teremos como atributos do objeto: o nome e a nota de alunos e criar uma função que irá retornar apenas os alunos que tiveram a nota maior ou igual à 6.
