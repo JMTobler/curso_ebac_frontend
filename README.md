@@ -1,2 +1,2 @@
-## Repositório para os exercícios do curso de Frontend da EBAC
-esse repositório foi criado para armazenar os exercícios feitos durante a parte de frontend do curso da EBAC de fullstack Java, os exercícios estarão divididos em branchs
+## Exrcicio de typeScript
+esse exercicio consiste em utilizando o TypeScript e a tipagem escreva duas funções: uma função de multiplicação que deverá receber como argumentos dois números e retornar a multiplicação deles, e uma função de saudação que deverá receber um nome e retornar a concatenação “Olá “ + nome.
